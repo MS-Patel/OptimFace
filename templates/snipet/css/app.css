@@ -1,0 +1,176 @@
+/*******************************************************************
+            General
+*******************************************************************/
+*{
+  outline: none;
+}
+.wrap{
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+/*******************************************************************
+            Nav-Mobile
+*******************************************************************/
+
+.title-bar{
+  background-color: #222222;
+}
+
+#mobile-menu{
+  background-color: #222222;
+  padding: 10px;
+}
+
+#mobile-menu > ul{
+  list-style: none;
+}
+
+#mobile-menu a{
+  color: rgba(255,255,255,0.6);
+  font-weight: bold;
+  line-height: 2;
+}
+#mobile-menu a:hover {
+  color: rgba(255,255,255,0.8);
+}
+.js-off-canvas-exit{
+    background-color: rgba(0,0,0,0.25);
+}
+/*******************************************************************
+            Nav-Desktop
+*******************************************************************/
+.nav-desktop{
+  background-color: #222;
+  height: 80px;
+  padding: 0px;
+}
+
+
+
+.site-logo{
+  color: white;
+  line-height: 80px;
+}
+
+.nav-desktop .menu-desktop{
+  background-color: transparent;
+  line-height: 80px;
+}
+
+.menu > li > a{
+  display: inline-block;
+  line-height: inherit;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: white;
+}
+
+.menu > li > a:hover {
+  background-color: rgba(255,255,255,0.10);
+}
+
+
+
+
+
+/*******************************************************************
+            Head Section
+*******************************************************************/
+
+.head{
+  background-color: #999;
+  padding: 80px 0px;
+  height: 400px;
+  background-image: url("/home/ms/PycharmProjects/optim_face/templates/img/pattern.png");
+}
+
+.head h1,
+.head p {
+  color: rgba(255,255,255,0.9);
+  width: 80%;
+  text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*******************************************************************
+            Main Section
+*******************************************************************/
+.main{
+  padding: 80px 0px;
+  text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+/*******************************************************************
+            Footer Section
+*******************************************************************/
+
+footer {
+  background-color: #222;
+  padding: 80px 0px;
+}
+
+footer h4{
+  color: rgba(255,255,255,0.8);
+  font-size: 1.3em;
+}
+
+footer hr{
+  border-color: rgba(255,255,255,0.1);
+  margin: 10px 0px;
+  width: 50%;
+}
+
+footer a{
+  display: block;
+  color: rgba(255,255,255,0.6);
+  font-size: 0.8em;
+}
+
+footer a span{
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+footer a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+/*******************************************************************
+            Media Query
+*******************************************************************/
+
+@media (max-width: 600px) {
+  .nav-desktop{
+    display: none;
+  }
+}
+
+@media (min-width: 512px) {
+  .title-bar {
+    padding: 0px;
+  }
+}
+
+@media (max-width: 640px){
+  .head h1, .head p {
+    width: 100%;
+  }
+}
